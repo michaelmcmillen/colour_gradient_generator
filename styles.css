@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to right,#2D8EC1, #5C5869);
+    margin: auto 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+label {
+    margin: 24px 0 0 0;
+    font-weight: 550;
+}
+
+p {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.colourPickerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#colourPicker1, #colourPicker2 {
+    margin: 20px 20px 20px 5px;
+}
+
+#randButton {
+    width: 200px;
+    padding: 7px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 10px;
+    box-shadow: 0px 0px 10px  rgb(0, 0, 0, 0.1);
+    outline: none;
+    cursor: pointer;
+}
+
+

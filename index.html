@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <title>Colour Gradient Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Colour pickers -->
+            <div class="colourPickerContainer">
+                <label for="colourPicker1">Select Colour 1 : </label>
+                <input type='color' id='colourPicker1' value='#2D8EC1'>
+                <label for="colourPicker2">Select Colour 2 : </label>
+                <input type='color' id='colourPicker2' value='#5C5869'>
+            </div>
+            <!-- Random gradient button -->
+            <input type="button" id="randButton" value="Generate Random Gradient">
+            <!-- Display current RGB colour -->
+            <p id="copyCol">linear-gradient(to right, rgb(45, 142, 193), rgb(92, 88, 105))</p>
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
